@@ -57,7 +57,8 @@ class Game extends React.Component {
       xIsNext: true
     };
   }
-
+  
+  // Parameters, Where is used, what does it do?
   handleClick(i) {
     console.log("handleClick" + i );
      const history = this.state.history.slice(0, this.state.stepNumber + 1);
