@@ -57,7 +57,7 @@ class Board extends React.Component {
       {/* div class name= board row  */}
         <div className="board-row">
 
-          {/* */}
+          {/* calling render method */}
           {this.renderSquare(0)}
           {this.renderSquare(1)}
           {this.renderSquare(2)}
